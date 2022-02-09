@@ -9,12 +9,11 @@
     width: 960px; 
     margin: auto; 
     background-color: aqua;
-    border: 3px solid purple; 
+     
     
     }
     
     Header{
-    border: 3px solid darkblue;
     text-align: center; 
     
     }
@@ -27,12 +26,21 @@
     
     main{
     /* height: 70vh; */
-    border: 3px solid purple; 
+    /*border: 3px solid purple;*/ 
     /* background-color: #000000*/
+    }
+
+    section{
+    margin: 2rem 0;
     }
 
     #bio {
     display: flex; 
+    }
+
+    #name-date {
+        display: flex; 
+        justify-content: space-between; 
     }
 
     #bio-choose{
@@ -43,20 +51,48 @@
         padding: 1rem; 
     }
 
+    #choose-list h4 {
+        margin-bottom: 1rem; 
+    }
+
+    #tech{
+        display: flex;  
+        justify-content: space-between;
+    }
+
+
+    figure{
+        background-color: aqua;
+        width: 10rem;
+        text-align: center; 
+        font-size: small; 
+    }   
     
+    figure img{
+        height: 10rem; 
+    }
+
+
+    figcaption{  
+        background-color: rgb(121, 246, 255, .5);
+        padding: .5rem; 
+        position: relative; 
+        bottom: 1.5rem; 
+    }
+
     #tech img{
     height: 200px; 
     }
 
 
     .greybox{
-        background-color: lightgreen;
+        background-color: rgb(111, 255, 212);
     }
 
 
 
     #copyright{ 
-     color:blue; 
+     color:purple; 
      background-color: lightblue;
     
     }
